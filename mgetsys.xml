@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install version="1.5" type="plugin" group="system">
+	<name>System - MGetSys</name>
+	<author>DtD Productions</author>
+	<creationDate>2011.03.13</creationDate>
+	<copyright>(C) 2008-2011 </copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL v2.0</license>
+	<authorEmail>mike@ditzthedaisy.com</authorEmail>
+	<authorUrl>www.ditzthedaisy.com</authorUrl>
+	<version>1.0</version>
+	<description>This plugin will output the current user information or guest or 0 for user id if not logged in. {mgetsysuid} - User ID, {mgetsysuser} - User Name, {mgetsysuname} - Users Name, {mgetsysueml} - Users email</description>
+	<files>
+		<filename plugin="mgetsys">mgetsys.php</filename>
+	</files>
+</install>
